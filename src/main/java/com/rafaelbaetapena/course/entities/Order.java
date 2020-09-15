@@ -73,7 +73,6 @@ public class Order implements Serializable {
 		if(orderStatus != null) {
 			this.orderStatus = orderStatus.getCode();
 		}
-		
 	}
 
 	public User getClient() {
